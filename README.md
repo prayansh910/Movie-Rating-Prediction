@@ -22,3 +22,16 @@ This project requires the following libraries:
 - scikit-learn
 - matplotlib
 - seaborn
+
+You can install them using:
+pip install -r requirements.txt
+
+## Running the Project
+1. Download the dataset (available [here](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)).
+2. Load the dataset using the Jupyter notebook or Google Collab `movie_rating_model.ipynb`.
+3. Follow the steps in the notebook to preprocess the data, build the model, and evaluate performance.
+
+## Evaluation Metrics
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R2 Score
